@@ -28,7 +28,7 @@ const server = app.listen(process.env.PORT,()=>{
 
 const io = socket(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://chat-app-4zb4.onrender.com",
       credentials: true,
     },
   });
